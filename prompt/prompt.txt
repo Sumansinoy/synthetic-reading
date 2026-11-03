@@ -1,0 +1,86 @@
+You are assisting a literary researcher who is conducting a reader-oriented thematic and language analysis of the short story about Alistair Vance, Evelyn, and the Anamnesis machine.
+
+RESEARCH QUESTION: How does the story use the symbolism of time, memory and emotional experiences to explore the meaning and value of human life?
+
+RESEARCH CLAIM: The story initially presents time as a mechanical and controlled process through Alistair's workshop and clocks. However, through the Anamnesis machine, memory and emotional experiences become central to understanding human existence. By the ending, the story suggests that a meaningful life is not defined by perfection but by accepting both sorrow and happiness as parts of a complete human experience.
+
+TASK:
+Read the PASSAGE below carefully. Identify and extract the important words, expressions, and phrases through which the narrator presents the themes defined in the research dimensions below.
+
+RESEARCH DIMENSIONS:
+
+Time and human existence (time_and_existence): Time is presented as more than a mechanical process; it represents human existence, change and the passage of life.
+  - time_as_a_concept: Descriptions and expressions that present time as something beyond ordinary measurement.
+  - clocks_and_mechanisms: Clocks, watches, ticking, pendulums and mechanical movements.
+  - relationship_with_time: The characters' feelings and changing understanding of time.
+
+Memory and emotional experience (memory_and_emotional_experience): Memory is presented as an important part of human identity and emotional experience.
+  - memories_and_past: Words and descriptions related to memories, past experiences and personal history.
+  - emotional_resonance: Expressions that connect memories with emotional energy and human feelings.
+  - memory_and_identity: Descriptions showing how memories influence a person's identity and understanding of life.
+
+Loss and emotional duality (loss_and_emotional_duality): Human life contains both painful and joyful experiences, and both contribute to its meaning.
+  - sorrow_and_pain: Words and expressions connected with sadness, suffering, regret and emotional loss.
+  - joy_and_happiness: Descriptions of happiness, smiles, positive feelings and emotional relief.
+  - balance_of_emotions: Expressions showing the relationship between sorrow and joy in human experience.
+
+Meaning and value of life (meaning_and_value_of_life): The story questions whether a meaningful life depends on perfection or on accepting every experience.
+  - choices_and_experiences: Descriptions of personal choices, fear, courage and different life experiences.
+  - wisdom_and_understanding: Words and expressions showing Alistair's growing understanding of life.
+  - life_as_a_complete_experience: Descriptions that connect the completeness of human experience with the value of life.
+
+
+RULES:
+1. Copy every extracted word or phrase exactly as it appears in the passage. Do not paraphrase, correct, or invent expressions.
+
+2. Select meaningful words and phrases that directly represent the research dimensions.
+
+3. Choose the shortest phrase that clearly communicates the meaning, but keep meaningful idioms, metaphors, and collocations together.
+
+4. Put each distinct phrase under ONE sub-type only. If a phrase could fit two sub-types, select the most appropriate one.
+
+5. List each distinct phrase only once within the relevant sub-type. Do not repeat phrases unnecessarily.
+
+6. Do not extract ordinary function words or generic verbs and nouns unless they carry an important thematic meaning.
+
+7. Include metaphors, symbolic descriptions, emotional expressions, and significant narrative language wherever relevant.
+
+8. Pay particular attention to:
+   - Descriptions of time, clocks, ticking, pendulums, and existence.
+   - References to memories, the past, emotional energy, and personal identity.
+   - Expressions of sorrow, happiness, joy, pain, and emotional balance.
+   - References to choices, fear, courage, wisdom, experience, and the meaning of life.
+
+9. A single word is allowed when it is central to a research dimension, but meaningful phrases are preferred.
+
+10. Do not force phrases into categories. If a sub-type has no relevant phrase in the passage, leave its list empty.
+
+11. Extract only evidence available in the given passage. Do not use information from other parts of the story.
+
+12. Return ONLY valid JSON with exactly this structure. Do not include explanations, commentary, or Markdown code fences.
+
+{
+ "time_and_existence": {
+  "time_as_a_concept": [],
+  "clocks_and_mechanisms": [],
+  "relationship_with_time": []
+ },
+ "memory_and_emotional_experience": {
+  "memories_and_past": [],
+  "emotional_resonance": [],
+  "memory_and_identity": []
+ },
+ "loss_and_emotional_duality": {
+  "sorrow_and_pain": [],
+  "joy_and_happiness": [],
+  "balance_of_emotions": []
+ },
+ "meaning_and_value_of_life": {
+  "choices_and_experiences": [],
+  "wisdom_and_understanding": [],
+  "life_as_a_complete_experience": []
+ }
+}
+
+PASSAGE:
+{{PASSAGE}}
