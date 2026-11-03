@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading “The Gift of the Magi” with an LLM: Project Index</title>
+  <style>
+    :root {
+      --bg-color: #fffdf8;
+      --text-color: #222;
+      --primary-color: #1f3a5f;
+      --accent-color: #8c2f39;
+      --box-bg: #f3eee4;
+      --border-color: #e3dccb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #15171c;
+        --text-color: #e6e3dc;
+        --primary-color: #9db8e0;
+        --accent-color: #e06c75;
+        --box-bg: #232730;
+        --border-color: #333;
+      }
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text-color);
+      background: var(--bg-color);
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 2.5rem 1.2rem;
+      line-height: 1.6;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      line-height: 1.3;
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      font-style: italic;
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+    }
+
+    .box {
+      background: var(--box-bg);
+      border-left: 4px solid var(--accent-color);
+      padding: 1rem 1.2rem;
+      margin: 1.5rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    nav.grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .card {
+      background: var(--box-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 1.2rem;
+      text-decoration: none;
+      color: var(--text-color);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--primary-color);
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .card .link-label {
+      font-weight: bold;
+      color: var(--accent-color);
+      font-size: 0.9rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      margin-top: 1rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-color);
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Reading “The Gift of the Magi” with an LLM: how language turns loss into value</h1>
+    <div class="subtitle">Computational Analysis and Literary Interpretation of Alistair Vance & The Anamnesis Machine</div>
+  </header>
+
+  <div class="box">
+    <b>Research Question:</b> How does the story use the symbolism of time, memory, and emotional experiences to explore the meaning and value of human life?<br><br>
+    <b>Tested Claim:</b> The story initially presents time as a mechanical and controlled process through Alistair's workshop and clocks. However, through the Anamnesis machine, memory and emotional experiences become central to understanding human existence.
+  </div>
+
+  <h2>Project Deliverables & Navigation</h2>
+  <nav class="grid">
+    <a class="card" href="report.html" target="content-frame">
+      <div>
+        <h3>Full Report & Visualisations</h3>
+        <p>View the integrated research paper containing full figures, data tables, and textual interpretation.</p>
+      </div>
+      <span class="link-label">Open Full Report &rarr;</span>
+    </a>
+
+    <a class="card" href="visualisations.html" target="content-frame">
+      <div>
+        <h3>Interactive Visualisations</h3>
+        <p>Explore the five Interactive Plotly charts mapping thematic distribution, sub-dimensions, and stage density.</p>
+      </div>
+      <span class="link-label">View Charts &rarr;</span>
+    </a>
+
+    <a class="card" href="interpretation.md" target="_blank">
+      <div>
+        <h3>Interpretation Document</h3>
+        <p>Read the standalone markdown source detailing the reader-oriented computational analysis paradigm.</p>
+      </div>
+      <span class="link-label">Open Markdown File &rarr;</span>
+    </a>
+  </nav>
+
+  <h2>Embedded Viewer</h2>
+  <p><small>Click any link above to view inside the frame below, or open in a new tab.</small></p>
+  <iframe name="content-frame" src="report.html"></iframe>
+
+  <footer>
+    <p>Project Index Page &bull; Algorithmic Criticism & Reader-Oriented Literary Analysis</p>
+  </footer>
+
+</body>
+</html>
